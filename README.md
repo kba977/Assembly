@@ -1,6 +1,8 @@
-<img height="200" width="180" style="margin-top:400" src="images/book.jpg" align="right">
 
 # Assembly
+
+
+<img height="200" width="200" src="images/book.jpg" align="right">
 
 汇编语言学习 平台 win7 vs2010
 
