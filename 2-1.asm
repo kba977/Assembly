@@ -29,4 +29,4 @@ main proc
 	invoke _getch
 	ret
 main endp
-end main											;//end of assembly
+end main					;//end of assembly

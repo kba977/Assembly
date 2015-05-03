@@ -1,5 +1,5 @@
 comment /*
-	 1.	编程写一个完整的程序,将数组array中的元素按逆序存放，		要求程序中附加的变量最少。（题库第5章应用题3）	  算法描述		 left,right分别指向数组的第一个和最后一个元素，采用首尾交换。			1. left=0, right=n-1；			2. while （left<right do）			{ 				swap a[left],a[right] ;				left++;				right--;			} 		合理分配寄存器:left=esi, right=edi 		采用带比例因子的相对寻址处理数组 
+	 1.	编程写一个完整的程序,将数组array中的元素按逆序存放，		要求程序中附加的变量最少。（题库第5章应用题3）	  算法描述		 left,right分别指向数组的第一个和最后一个元素，采用首尾交换。			1. left=0, right=n-1；			2. while （left<right do）			{				swap a[left],a[right] ;				left++;				right--;			}		合理分配寄存器:left=esi, right=edi 		采用带比例因子的相对寻址处理数组 
 	*/
 
 include vcIO.inc

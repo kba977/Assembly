@@ -15,7 +15,6 @@ include vcIO.inc
 .code
 main proc
 	xor esi, esi					; // esi 素数个数，兼做prime下标
-	;mov esi, offset Prime
 	mov ecx, 2						; // 循环控制变量 i
 
 	.while (ecx<=100)
@@ -26,17 +25,13 @@ main proc
 		jne next
 		mov Prime[esi*4], ecx
 		inc esi
-	;//	pushad
-	;//		invoke printf, offset frmStr, ecx
-	;//	popad
 	next:
 		inc ecx
 	.endw
 	mov Pcounter, esi
 
-	;// 打印数组
+	; // 打印数组
 	xor esi, esi
-	;mov esi, offset Prime
 
 	mov ebx, 10
 

@@ -1,5 +1,5 @@
 comment /*
-    6.从键盘上输入3个有符号的双字整数，编写一完整的程序按照又大到小的顺序输出这3个数。	  提示：采用xchg指令交换两个变量的值，伪代码描述如下：        1. read a,b,c		2. if  (a<b) then exchage( a,b)        3. if  (a<c) then exchage( a,c)        4. if  (b<c) then exchage( b,c)        5. print a,b,c
+	6.	从键盘上输入3个有符号的双字整数，编写一完整的程序按照又大到小的顺序输出这3个数。		提示：采用xchg指令交换两个变量的值，伪代码描述如下：		1. read a,b,c		2. if  (a<b) then exchage( a,b)		3. if  (a<c) then exchage( a,c)		4. if  (b<c) then exchage( b,c)		5. print a,b,c
 */
 
 include vcIO.inc

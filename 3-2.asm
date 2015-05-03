@@ -8,13 +8,10 @@ include vcIO.inc
 	f1 dword 1
 	f2 dword 1
 	fn dword ?
-	frmStr byte '%5d',13, 10, 0
+	frmStr byte '%5d', 13, 10, 0
 .code
 main proc
-	;pushad
 		mov ecx, 18
-		;mov eax, f1
-		;add eax, f2
 	again:	
 		mov eax, f1
 		add eax, f2
@@ -24,12 +21,7 @@ main proc
 		pushad
 			invoke printf, offset frmStr, eax
 		popad
-		loop again
-		
-		;mov fn, eax
-
-		;invoke printf, offset frmStr, fn
-	;popad  
+		loop again 
 	invoke _getch
 	ret
 main endp
