@@ -1,4 +1,4 @@
-<img height="200" width="150" src="images/book.jpg" align="right">
+<img height="200" width="180" style="margin-top:400" src="images/book.jpg" align="right">
 
 # Assembly
 
