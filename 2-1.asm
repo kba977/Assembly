@@ -1,5 +1,15 @@
 comment /*
-	1.	������C���Գ���Ĵ���Ƭ��ת��Ϊ���ܵȼ۵Ļ�����Դ���Ƭ�Σ�		��дһ�����Ļ�����Գ�����֤ת������ȷ�ԣ�����sign��sinte		ger��Ϊ˫�ֱ�����        ������5�¼����2��	α����: 		if  (sinteger == 0)	  		sign = 0;		else if ( siteger > 0)	 			sign = 1;  		else	 	        sign = ��1;		��ʾ��ע���ܽ�ת���Ĺ��ɲ���ǣ�
+	1.	将下面C语言程序的代码片段转换为功能等价的汇编语言代码片段；
+		编写一完整的汇编语言程序验证转换的正确性，其中sign与sinte
+		ger均为双字变量。        （题库第5章简答题2）
+	伪代码: 
+		if  (sinteger == 0)
+	  		sign = 0;
+		else if ( sinteger > 0)	 
+			sign = 1;  
+		else	 
+	        sign = －1;
+		提示：注意总结转换的规律并熟记！
 */
 
 include vcIO.inc
