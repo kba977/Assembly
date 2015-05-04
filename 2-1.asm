@@ -8,7 +8,7 @@ comment /*
 		else if ( sinteger > 0)	 
 			sign = 1;  
 		else	 
-	        sign = －1;
+	                sign = －1;
 		提示：注意总结转换的规律并熟记！
 */
 
